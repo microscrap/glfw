@@ -1,0 +1,18 @@
+<?php
+
+namespace Microscrap\Bindings\GLFW\Enums;
+
+/**
+ * AnglePlatformType — values from glfw3.h
+ */
+enum AnglePlatformType: int
+{
+    case GLFW_ANGLE_PLATFORM_TYPE_NONE = 0x00037001;
+    case GLFW_ANGLE_PLATFORM_TYPE_OPENGL = 0x00037002;
+    case GLFW_ANGLE_PLATFORM_TYPE_OPENGLES = 0x00037003;
+    case GLFW_ANGLE_PLATFORM_TYPE_D3D9 = 0x00037004;
+    case GLFW_ANGLE_PLATFORM_TYPE_D3D11 = 0x00037005;
+    case GLFW_ANGLE_PLATFORM_TYPE_VULKAN = 0x00037007;
+    case GLFW_ANGLE_PLATFORM_TYPE_METAL = 0x00037008;
+    case GLFW_ANGLE_PLATFORM_TYPE = 0x00050002;
+}

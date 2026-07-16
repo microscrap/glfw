@@ -1,0 +1,30 @@
+<?php
+
+namespace Microscrap\Bindings\GLFW\Enums;
+
+/**
+ * GamepadButton — values from glfw3.h
+ */
+enum GamepadButton: int
+{
+    case GLFW_GAMEPAD_BUTTON_A = 0;
+    case GLFW_GAMEPAD_BUTTON_B = 1;
+    case GLFW_GAMEPAD_BUTTON_X = 2;
+    case GLFW_GAMEPAD_BUTTON_Y = 3;
+    case GLFW_GAMEPAD_BUTTON_LEFT_BUMPER = 4;
+    case GLFW_GAMEPAD_BUTTON_RIGHT_BUMPER = 5;
+    case GLFW_GAMEPAD_BUTTON_BACK = 6;
+    case GLFW_GAMEPAD_BUTTON_START = 7;
+    case GLFW_GAMEPAD_BUTTON_GUIDE = 8;
+    case GLFW_GAMEPAD_BUTTON_LEFT_THUMB = 9;
+    case GLFW_GAMEPAD_BUTTON_RIGHT_THUMB = 10;
+    case GLFW_GAMEPAD_BUTTON_DPAD_UP = 11;
+    case GLFW_GAMEPAD_BUTTON_DPAD_RIGHT = 12;
+    case GLFW_GAMEPAD_BUTTON_DPAD_DOWN = 13;
+    case GLFW_GAMEPAD_BUTTON_DPAD_LEFT = 14;
+    case GLFW_GAMEPAD_BUTTON_LAST = 14;
+    case GLFW_GAMEPAD_BUTTON_CROSS = 0;
+    case GLFW_GAMEPAD_BUTTON_CIRCLE = 1;
+    case GLFW_GAMEPAD_BUTTON_SQUARE = 2;
+    case GLFW_GAMEPAD_BUTTON_TRIANGLE = 3;
+}

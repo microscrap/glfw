@@ -1,0 +1,25 @@
+<?php
+
+namespace Microscrap\Bindings\GLFW\Enums;
+
+/**
+ * WindowAttrib — values from glfw3.h
+ */
+enum WindowAttrib: int
+{
+    case GLFW_FOCUSED = 0x00020001;
+    case GLFW_ICONIFIED = 0x00020002;
+    case GLFW_RESIZABLE = 0x00020003;
+    case GLFW_VISIBLE = 0x00020004;
+    case GLFW_DECORATED = 0x00020005;
+    case GLFW_AUTO_ICONIFY = 0x00020006;
+    case GLFW_FLOATING = 0x00020007;
+    case GLFW_MAXIMIZED = 0x00020008;
+    case GLFW_CENTER_CURSOR = 0x00020009;
+    case GLFW_TRANSPARENT_FRAMEBUFFER = 0x0002000A;
+    case GLFW_HOVERED = 0x0002000B;
+    case GLFW_FOCUS_ON_SHOW = 0x0002000C;
+    case GLFW_MOUSE_PASSTHROUGH = 0x0002000D;
+    case GLFW_SCALE_TO_MONITOR = 0x0002200C;
+    case GLFW_SCALE_FRAMEBUFFER = 0x0002200D;
+}
