@@ -1,8 +1,16 @@
 # microscrap/glfw — LibGLFW bindings for PHP
 
+> **Docs (production):** [ScrapyardIO · microscrap/glfw 0.7.x](https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/glfw/0.7.x/overview)
+
+[![Docs](https://img.shields.io/badge/docs-ScrapyardIO-0ea5e9?logo=readthedocs&logoColor=white)](https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/glfw/0.7.x/overview)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Requires ext-glfw](https://img.shields.io/badge/ext--glfw-%5E0.5-777bb4?logo=php&logoColor=white)](https://github.com/php-io-extensions/glfw)
+
 PHP library that wraps the [**glfw**](https://github.com/php-io-extensions/glfw) extension with global helpers, enums, and data objects. Every helper delegates to a static wrapper class under `Microscrap\Bindings\GLFW`.
 
 The package covers the entire extension surface (124 GLFWAPI methods + a small OpenGL convenience set across 8 extension classes): init, error, windows, monitors, input/joysticks/gamepads, context, Vulkan, and minimal GL clear/viewport helpers for visual proofs.
+
+Ecosystem docs: [`0.7.x`](https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/glfw/0.7.x/overview). For OpenGL draw APIs prefer [`microscrap/open-gl`](https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/open-gl/0.7.x/overview); tubes OpenGL deferred buffers live in `microscrap/ogx`.
 
 ## Highlights
 

@@ -2,14 +2,20 @@
     "name": "microscrap/glfw",
     "description": "LibGLFW Bindings for The PHP GLFW Extension",
     "type": "library",
-    "version": "0.5.1",
+    "version": "0.7.0",
     "keywords": [
         "framework",
         "scrapyard-io",
-        "glfw"
+        "glfw",
+        "bindings"
     ],
     "license": "MIT",
-    "homepage": "https://dosr.projectsaturnstudios.com",
+    "homepage": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/glfw/0.7.x/overview",
+    "support": {
+        "docs": "https://scrapyard-io.projectsaturnstudios.com/ecosystem/microscrap/glfw/0.7.x/overview",
+        "source": "https://github.com/microscrap/glfw",
+        "issues": "https://github.com/microscrap/glfw/issues"
+    },
     "authors": [
         {
             "name": "Angel Gonzalez",
@@ -47,6 +53,13 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.7.x-dev",
+            "dev-main": "0.7.x-dev",
+            "dev-0.7.x": "0.7.x-dev"
         }
     },
     "minimum-stability": "dev",
