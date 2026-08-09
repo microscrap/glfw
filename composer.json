@@ -2,7 +2,7 @@
     "name": "microscrap/glfw",
     "description": "LibGLFW Bindings for The PHP GLFW Extension",
     "type": "library",
-    "version": "0.7.0",
+    "version": "0.7.1",
     "keywords": [
         "framework",
         "scrapyard-io",

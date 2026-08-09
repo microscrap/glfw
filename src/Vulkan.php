@@ -31,4 +31,9 @@ final class Vulkan
     {
         return GLFWVulkan::glfwCreateWindowSurface($instance, self::windowPtr($window), $allocator);
     }
+
+    private static function windowPtr(GlfwWindow|int $window): int
+    {
+        return $window instanceof GlfwWindow ? $window->ptr : $window;
+    }
 }
