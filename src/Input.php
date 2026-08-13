@@ -52,6 +52,16 @@ final class Input
         return GLFWInput::glfwGetCursorPos(self::windowPtr($window));
     }
 
+    public static function getCursorX(GlfwWindow|int $window): float
+    {
+        return GLFWInput::glfwGetCursorX(self::windowPtr($window));
+    }
+
+    public static function getCursorY(GlfwWindow|int $window): float
+    {
+        return GLFWInput::glfwGetCursorY(self::windowPtr($window));
+    }
+
     public static function setCursorPos(GlfwWindow|int $window, float $xpos, float $ypos): void
     {
         GLFWInput::glfwSetCursorPos(self::windowPtr($window), $xpos, $ypos);
@@ -180,6 +190,16 @@ final class Input
     public static function getGamepadState(int $jid): array
     {
         return GLFWInput::glfwGetGamepadState($jid);
+    }
+
+    public static function getGamepadButton(int $jid, int $button): int
+    {
+        return GLFWInput::glfwGetGamepadButton($jid, $button);
+    }
+
+    public static function getGamepadAxis(int $jid, int $axis): float
+    {
+        return GLFWInput::glfwGetGamepadAxis($jid, $axis);
     }
 
     public static function setClipboardString(GlfwWindow|int|null $window, string $value): void

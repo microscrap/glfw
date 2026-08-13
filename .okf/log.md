@@ -1,5 +1,9 @@
 # Log
 
+## 2026-08-13
+
+* **Input scalars (draft)**: `Input::getCursorX` / `getCursorY` / `getGamepadButton` / `getGamepadAxis` plus matching helpers. Wraps ext-glfw 0.7 poll-hot-path scalars so callers do not allocate `getCursorPos` / `getGamepadState` hashtables. Snapshot `tests/Support/extension-methods-0.5.0.php` updated.
+
 ## 2026-08-09
 
 * **Creation**: OKF v0.2 knowledge bundle for `microscrap/glfw` 0.7.0 from package sources + `okf/SPEC.md` (GoogleCloudPlatform/knowledge-catalog).

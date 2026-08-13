@@ -64,6 +64,20 @@ if (! function_exists('glfwGetCursorPos')) {
     }
 }
 
+if (! function_exists('glfwGetCursorX')) {
+    function glfwGetCursorX(GlfwWindow|int $window): float
+    {
+        return Input::getCursorX($window);
+    }
+}
+
+if (! function_exists('glfwGetCursorY')) {
+    function glfwGetCursorY(GlfwWindow|int $window): float
+    {
+        return Input::getCursorY($window);
+    }
+}
+
 if (! function_exists('glfwSetCursorPos')) {
     function glfwSetCursorPos(GlfwWindow|int $window, float $xpos, float $ypos): void
     {
@@ -243,6 +257,20 @@ if (! function_exists('glfwGetGamepadState')) {
     function glfwGetGamepadState(int $jid): array
     {
         return Input::getGamepadState($jid);
+    }
+}
+
+if (! function_exists('glfwGetGamepadButton')) {
+    function glfwGetGamepadButton(int $jid, int $button): int
+    {
+        return Input::getGamepadButton($jid, $button);
+    }
+}
+
+if (! function_exists('glfwGetGamepadAxis')) {
+    function glfwGetGamepadAxis(int $jid, int $axis): float
+    {
+        return Input::getGamepadAxis($jid, $axis);
     }
 }
 
